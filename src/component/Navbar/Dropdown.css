@@ -1,0 +1,9 @@
+.events{
+    font-size: calc(0.3rem + 1vw);
+    cursor: pointer;
+}
+
+.event-drop{
+    cursor: pointer;
+    font-size: calc(0.1rem + 1vw);
+}

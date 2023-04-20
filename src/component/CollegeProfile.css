@@ -1,0 +1,187 @@
+.profile-container {
+    margin-left: 10%;
+
+}
+
+.profile-container h1 {
+    font-size: calc(1rem + 1vw);
+}
+
+.profile-image img {
+    width: 23%;
+    margin-left: -5rem;
+    margin-top: 1rem;
+    border-radius: 8rem;
+    border: teal 0.5rem solid;
+    box-shadow: -0.5px -0.5px 7px 7px rgb(196, 195, 195);
+}
+
+.profile-container h1 {
+    margin-left: 26%;
+    margin-top: -17%;
+}
+
+.profile-about h1 {
+    font-size: calc(1rem + 1vw);
+}
+
+.profile-about p {
+    font-size: calc(0.2rem + 1vw);
+}
+
+.profile-email p {
+    margin-left: 26%;
+    font-size: calc(0.2rem + 1vw);
+    color: teal;
+    width: 15%;
+}
+
+.profile-email p span:hover {
+    border-bottom: .01rem teal solid;
+    cursor: pointer;
+}
+
+.profile-website a {
+    margin-left: 26%;
+    font-size: calc(0.2rem + 1vw);
+    color: black;
+}
+
+.profile-website span {
+    color: teal;
+}
+
+.profile-website span:hover {
+    cursor: pointer;
+    border-bottom: .01rem teal solid;
+}
+
+.profile-orgbutton button {
+    background: teal;
+    float: left;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgb(196, 195, 195);
+    margin-top: -1%;
+    margin-left: 80%;
+    height: 2.5em;
+    font-size: calc(0rem + 1vw);
+}
+
+.profile-orgbutton button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.profile-location {
+    float: right;
+    margin-right: 10rem;
+    margin-top: -4rem;
+    font-size: calc(0.2rem + 1vw);
+}
+
+.profile-location p span {
+    font-size: calc(0.2rem + 1vw);
+    opacity: 0.5;
+}
+
+
+
+.profile-event-heading {
+    margin-top: 0.5em;
+    margin-right: 4rem;
+    font-size: calc(0.2rem + 1vw);
+}
+
+.profile-event-heading p {
+    display: inline;
+    margin-right: -1rem;
+    margin-left: 5rem;
+}
+
+.profile-border {
+    border-bottom: .01rem solid;
+    margin-top: 1rem;
+    margin-left: 35%;
+    width: 65%;
+}
+
+.profile-event-status p {
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.profile-event-heading p:hover {
+    border-bottom: 0.1rem rgb(7, 123, 123) solid;
+    cursor: pointer;
+}
+
+.profile-post {
+
+    color: teal;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+   
+    box-shadow: -0.5px -0.5px 7px 7px rgb(196, 195, 195);
+    background: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.profile-post-date {
+    margin-top: 1rem;
+}
+
+.profile-post-button button {
+    margin-left: 80%;
+    border-radius: 0.5rem;
+    background: teal;
+    color: white;
+    padding: 1%;
+    height: 10%;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(161, 158, 158);
+}
+
+.profile-post-date span {
+    color: black;
+}
+
+.profile-post-container {
+    height: 18.7rem;
+    padding: 1rem 3rem 5rem 4rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.profile-about {
+    float: left;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.profile-about-border {
+    border-bottom: .02rem solid;
+    margin-top: -1rem;
+}
+
+.profile-about p {
+    color: teal;
+}
+
+.profile-about p span {
+    color: black;
+    display: flex;
+}
+
+@media(max-width:900px)
+{
+    .profile-location p{
+        margin-top: 40%;
+    }
+    .profile-border{
+        margin-left: 45%;
+        width: 29em;
+    }
+}

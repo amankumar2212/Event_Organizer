@@ -1,0 +1,340 @@
+.homepage {
+    overflow: hidden;
+    width: 100%;
+}
+
+.gif img {
+    width: 40%;
+    margin-left: 57%;
+    margin-top: -34%;
+}
+
+.heading li {
+    list-style: none;
+    color: teal;
+    font-size: calc(1rem + 1vw);
+    font-weight: 700;
+}
+
+.heading {
+    display: inline-flex;
+}
+
+.heading li span {
+    font-size: calc(1rem + 1vw);
+}
+
+.heading li span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: white;
+    width: 100%;
+    border-left: 0.2rem solid teal;
+    left: 0;
+    animation: typing1 2s steps(10) infinite;
+
+}
+
+@keyframes typing1 {
+    100% {
+        left: 109%;
+    }
+}
+
+.heading ul {
+
+    margin-top: 14.5%;
+    margin-left: -30px;
+    height: 35px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.heading h1 {
+    margin-left: 100px;
+    margin-top: 14.5%;
+    font-size: calc(1rem + 1vw);
+}
+
+.heading li {
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
+
+}
+
+@keyframes slide {
+    100% {
+        top: -163px;
+    }
+}
+
+.mainheading h2 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: calc(1.5rem + 1vw);
+    color: teal;
+    width: 80%;
+    overflow: hidden;
+}
+
+.mainheading h2::after {
+    content: "";
+    width: 50%;
+    position: absolute;
+    height: 4rem;
+    background: white;
+    border-left: 4px solid teal;
+    left: 10%;
+    animation: typing2 4s steps(50) infinite;
+}
+
+@keyframes typing2 {
+    100% {
+        left: 44rem;
+    }
+}
+
+.conference {
+    width: 90%;
+    background-image: linear-gradient(315deg, #39AEA9, #A2D5AB);
+    box-shadow: -0.5px -0.5px 7px 7px rgb(196, 195, 195);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.hackathon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-left: -50rem;
+}
+
+.seminar {
+    width: 88%;
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    height: 20rem;
+    padding: 3rem;
+    background-image: linear-gradient(315deg, #39AEA9, #A2D5AB);
+    box-shadow: -0.5px -0.5px 7px 7px rgb(196, 195, 195);
+}
+
+.workshop {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    margin-left: -10rem;
+}
+
+.workshop h2 {
+    margin-right: 35rem;
+    font-size: 2rem;
+    margin-top: -4rem;
+}
+
+.seminar h2 {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.confcontent h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+.hackcontent {
+    margin-top: -1.5rem;
+    margin-left: 10rem;
+}
+
+.hackcontent h2 {
+    margin-left: 25rem;
+    font-size: 2rem;
+}
+
+.semicontent p {
+    margin-left: 4rem;
+    margin-right: 10rem;
+    font-size: 1.7rem;
+    justify-content: center;
+    width: 63%;
+}
+
+.hackcontent p {
+    margin-left: 25rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+
+}
+
+.confcontent p {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-size: 1.7rem;
+}
+
+.workcontent p {
+    font-size: 1.7rem;
+}
+
+.confimage img {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 3rem;
+
+}
+
+.hackimage img {
+    margin-left: 55rem;
+    width: 60%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.semimage img {
+    border-radius: 10px;
+    width: 280%;
+    margin-left: -20rem;
+}
+
+.workimage img {
+    border-radius: 10px;
+    width: 66%;
+    height: 100%;
+    margin-left: 15rem;
+    margin-top: -3rem;
+}
+
+.workbutton {
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 10%;
+    font-size: 1rem;
+    box-shadow: -0.5px -0.5px 5px 5px rgb(196, 195, 195);
+}
+
+.workbutton:hover {
+    cursor: pointer;
+    opacity: 0.7
+}
+
+.semibutton {
+    margin-left: 5rem;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 10%;
+    height: 10%;
+    font-size: 1rem;
+    box-shadow: -0.5px -0.5px 5px 5px rgb(196, 195, 195);
+}
+
+.semibutton:hover {
+    cursor: pointer;
+    opacity: 0.7
+}
+
+.hackbutton {
+    margin-left: 25rem;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 10%;
+    height: 10%;
+    font-size: 1rem;
+    box-shadow: -0.5px -0.5px 5px 5px rgb(196, 195, 195);
+}
+
+.hackbutton:hover {
+    cursor: pointer;
+    opacity: 0.7
+}
+
+.confbutton {
+    margin-left: 5rem;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 15%;
+    height: 2rem;
+    font-size: calc(0.1rem + 1vw);
+    box-shadow: -0.5px -0.5px 5px 5px rgb(196, 195, 195);
+}
+
+.confbutton:hover {
+    cursor: pointer;
+    opacity: 0.7
+}
+
+.register-button button {
+    margin-left: 20%;
+    margin-top: 5%;
+    background: teal;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    width: 15%;
+    height: 3rem;
+    font-size: calc(0.5rem + 1vw);
+    box-shadow: -0.5px -0.5px 5px 5px rgb(196, 195, 195);
+}
+
+.register-button button:hover {
+
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+@media screen and (max-width:1250px) {
+
+    .gif img {
+        width: 35%;
+        margin-left: 65%;
+
+    }
+
+    .mainheading h2 {
+        font-size: 1.8rem
+    }
+
+    .mainheading h2::after {
+        height: 6%;
+    }
+
+    @keyframes typing2 {
+        100% {
+            left: 30rem;
+        }
+    }
+
+    .homepage {
+        overflow: hidden;
+    }
+
+    .register-button button {
+        font-size: calc(0.5rem + 1vw);
+        width: 15%;
+    }
+
+
+}

@@ -1,0 +1,160 @@
+.form-container {
+  width: 40%;
+  margin-left: 50%;
+  margin-top: -35%;
+  padding: 5px 50px 20px 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: -0.5px -0.5px 10px 10px rgb(196, 195, 195);
+}
+
+.form-container h2 {
+  color: teal;
+  text-align: center;
+}
+
+.event-organize img {
+  width: 30%;
+  margin-top: 7%;
+  margin-left: 4%;
+}
+
+.form-group h2 {
+  text-align: left;
+}
+
+.form-group2 ,.form-group3,.form-group5 {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 20rem;
+  padding: 1%;
+}
+.schedule-group{
+  margin-top: -5%;
+}
+.statedropdown4 {
+  box-shadow: 5px 5px 5px rgb(135, 134, 134);
+  cursor: pointer;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 2%;
+  font-size: calc(0.1rem + 1vw);
+}
+
+.form-group select {
+  width: 100%;
+  margin-top: 2%;
+  height: 30px;
+  box-shadow: 5px 5px 5px rgb(135, 134, 134);
+  border-radius: 5px;
+  font-size: calc(0.1rem + 1vw);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border: none;
+  font-size: calc(0.1rem + 1vw);
+  border-bottom: 2px solid rgb(224, 220, 220);
+}
+
+.form-group input:hover::-webkit-input-placeholder {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+  outline: none;
+  transition: box-shadow 0.5s ease-in;
+}
+
+.button-container button {
+  background-color: teal;
+  color: white;
+  padding: 0.6rem 2rem;
+  border: none;
+  margin-left: 1%;
+  margin-top: 5%;
+  font-size: calc(0.1rem + 1vw);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(203, 202, 202);
+}
+
+.form-group label select {
+  display: flex;
+  width: 100%;
+}
+
+.addfield {
+  background-color: teal;
+  color: white;
+  width: 20%;
+  padding: 1%;
+  margin-top: 5%;
+  margin-left: 40%;
+  font-size: calc(0.1rem + 1vw);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(203, 202, 202)
+}
+
+.addfield:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.button-container button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.removefield {
+  background-color: rgb(172, 9, 9);
+  color: white;
+  width: 20%;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: 40%;
+  font-size: calc(0.1rem + 1vw);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(203, 202, 202)
+}
+
+.schedule-group input{
+  width: 90%;
+}
+.removefield:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.scheduleaddfield{
+  background-color: teal;
+  color: white;
+  width: 30%;
+  padding: 1%;
+  margin-top: 5%;
+  margin-left: 36%;
+  font-size: calc(0.1rem + 1vw);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(203, 202, 202)
+}
+.loader{
+  margin-top: 15%;
+  margin-left: 42%;
+}

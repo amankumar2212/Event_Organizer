@@ -1,0 +1,70 @@
+{
+  "attendee": [
+    {
+      "id": "test@gmail.com",
+      "email": "test@gmail.com",
+      "password": "@password@",
+      "cpassword": "@password@",
+      "name": "Aman Kumar",
+      "profession": "Web Developer",
+      "state": "Delhi",
+      "pincode": "110071",
+      "portfolio": "https://www.google.com/",
+      "instagram": "https://www.google.com/",
+      "facebook": "https://www.google.com/",
+      "linkedin": "https://www.google.com/"
+    },
+    {
+      "name": "Aman Kumar",
+      "profession": "Web Developer",
+      "email": "aman@gmail.com",
+      "attendeepassword": "Aman",
+      "attendeecpassword": "Aman",
+      "contact": "",
+      "address": "",
+      "city": "Delhi",
+      "attendeestate": "Delhi",
+      "pincode": "110071",
+      "website": "",
+      "ainstagram": "mananaa",
+      "afacebook": "manasss",
+      "alinkedin": "https://www.linkedin.com/in/aman-kumar-a724341b1/",
+      "portfolio": "https://github.com/amankumar2212",
+      "id": "9IPSYnp"
+    }
+  ],
+  "collegesignup": [
+    {
+      "collegename": "ADGITM",
+      "headname": "Sanjay Kumar",
+      "id": "test1@gmail.com",
+      "collegepassword": "@password@",
+      "collegecpassword": "@password@",
+      "contact": "99999999999",
+      "address": "Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110053",
+      "website": "password",
+      "cinstagram": "https://www.google.com",
+      "clinkedin": "https://www.google.com",
+      "cfacebook": "https://www.google.com"
+    },
+    {
+      "collegename": "BPIT",
+      "headname": "Parol",
+      "id": "test5@gmail.com",
+      "collegepassword": "1234",
+      "collegecpassword": "1234",
+      "contact": "98989898",
+      "address": "near Gate no. 1",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "pincode": "121006",
+      "website": "",
+      "cinstagram": "",
+      "clinkedin": "",
+      "cfacebook": ""
+    }
+  ]
+}

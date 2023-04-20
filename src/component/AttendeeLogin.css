@@ -1,0 +1,109 @@
+.userlogin {
+    overflow: hidden;
+    margin-top: -5%;
+    margin-left: -4%;
+    padding: 5%;
+
+}
+
+.mainlogin label {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: calc(0.3rem + 1vw);
+    border-radius: 10px;
+    width: 70%;
+}
+
+.attendeeicon {
+    margin-top: -5%;
+    margin-left: 85%;
+    cursor: pointer;
+    font-size: calc(0.3rem + 1vw);
+}
+
+.mainlogin input:focus {
+    box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+    outline: none;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.mainlogin p {
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: calc(0.1rem + 1vw);
+}
+
+.mainlogin input {
+    margin-top: 10%;
+    margin-left: -20%;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    font-size: calc(0.3rem + 1vw);
+    border-bottom: 2px solid rgb(224, 220, 220);
+}
+
+.mainlogin input:hover::-webkit-input-placeholder {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.mainlogin h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: calc(0.8rem + 1vw);
+}
+
+.mainlogin {
+    margin-top: -30%;
+    margin-left: 55%;
+    border-radius: calc(0.01rem + 1vw);
+    padding: 1% 0% 2% 0%;
+    width: 40%;
+    background-color: white;
+    box-shadow: -0.5px -0.5px 10px 10px rgb(196, 195, 195);
+}
+
+.forgot-password {
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: calc(0.01rem + 1vw);
+}
+
+.loginImage img {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+
+}
+
+.submit {
+    background-color: teal;
+    box-shadow: 5px 5px 5px rgb(154, 154, 154);
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 2%;
+    margin-left: 22%;
+    border-radius: 10px;
+    border-color: teal;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: calc(0.1rem + 1vw);
+}
+
+.submit:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:768px) {
+    .mainlogin input {
+        margin-left: -25%;
+    }
+
+    .submit {
+        height: 1rem;
+    }
+}

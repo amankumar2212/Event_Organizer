@@ -1,0 +1,109 @@
+.sub-nav li {
+    list-style: none;
+    color: teal;
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 6%;
+    margin-right: -4%;
+    font-size: calc(0.3rem + 1vw);
+}
+
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: teal;
+}
+
+.submenu ul {
+    margin-top: 10%;
+    box-shadow: 5px 5px 5px black;
+    width: 50%;
+    border-color: black;
+
+}
+
+.submenu ul li:hover {
+    background-color: teal;
+    border-radius: 0.2rem;
+}
+
+.logindropdown {
+    background-color: teal;
+    box-shadow: 5px 5px 5px rgb(135, 134, 134);
+    color: white;
+    border: teal;
+    width: 30%;
+    height: calc(2rem + 1vw);
+}
+
+.logindropdown:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.button {
+    text-align: right;
+    margin-top: -4rem;
+    margin-left: 80%;
+}
+
+.button button {
+    padding: 0.1rem;
+    font-size: calc(0.2rem + 1.5vw);
+    border-radius: 0.7rem;
+    margin-right: calc(1rem + 1vw);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(9, 153, 153);
+    color: white;
+}
+
+.signup:hover {
+    background-color: rgb(251, 251, 251);
+    color: black;
+}
+
+.signup {
+    border-width: 0.2rem;
+    border-color: teal;
+    background-color: white;
+    height: calc(2rem + 1vw);
+    width: 35%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) and (min-width:480px) {
+    .signup {
+        width: calc(2rem + 1.5vw);
+        height: calc(2rem + 1vw);
+    }
+
+    .logindropdown {
+        margin-left:-1rem;
+        height: 10%;
+        margin-top: 1rem;
+    }
+    .signup {
+        height: 3%;
+        width: 40%;
+      
+        
+    }
+}
+
+@media screen and (max-width:480px)
+{
+.button button{
+    margin-left: -5%;
+}
+}
